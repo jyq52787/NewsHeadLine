@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JJHomeViewController.h
 //  NewsHeadLine
 //
 //  Created by 贾永强 on 15/11/30.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface JJHomeViewController : UITableViewController
 
 @end
-

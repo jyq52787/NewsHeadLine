@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A1C91BC1C0BA21900EAB210 /* JJHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1C91BB1C0BA21900EAB210 /* JJHomeViewController.m */; settings = {ASSET_TAGS = (); }; };
 		4AB1CE871C0BA0FD007700DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB1CE861C0BA0FD007700DB /* main.m */; };
 		4AB1CE8A1C0BA0FD007700DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB1CE891C0BA0FD007700DB /* AppDelegate.m */; };
-		4AB1CE8D1C0BA0FD007700DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB1CE8C1C0BA0FD007700DB /* ViewController.m */; };
 		4AB1CE901C0BA0FD007700DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AB1CE8E1C0BA0FD007700DB /* Main.storyboard */; };
 		4AB1CE921C0BA0FD007700DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AB1CE911C0BA0FD007700DB /* Assets.xcassets */; };
 		4AB1CE951C0BA0FD007700DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AB1CE931C0BA0FD007700DB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A1C91BA1C0BA21900EAB210 /* JJHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJHomeViewController.h; sourceTree = "<group>"; };
+		4A1C91BB1C0BA21900EAB210 /* JJHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJHomeViewController.m; sourceTree = "<group>"; };
 		4AB1CE821C0BA0FD007700DB /* NewsHeadLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsHeadLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AB1CE861C0BA0FD007700DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4AB1CE881C0BA0FD007700DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4AB1CE891C0BA0FD007700DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4AB1CE8B1C0BA0FD007700DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4AB1CE8C1C0BA0FD007700DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4AB1CE8F1C0BA0FD007700DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4AB1CE911C0BA0FD007700DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AB1CE941C0BA0FD007700DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,11 +58,8 @@
 		4AB1CE841C0BA0FD007700DB /* NewsHeadLine */ = {
 			isa = PBXGroup;
 			children = (
-				4AB1CE881C0BA0FD007700DB /* AppDelegate.h */,
-				4AB1CE891C0BA0FD007700DB /* AppDelegate.m */,
-				4AB1CE8B1C0BA0FD007700DB /* ViewController.h */,
-				4AB1CE8C1C0BA0FD007700DB /* ViewController.m */,
-				4AB1CE8E1C0BA0FD007700DB /* Main.storyboard */,
+				4A1C91BA1C0BA21900EAB210 /* JJHomeViewController.h */,
+				4A1C91BB1C0BA21900EAB210 /* JJHomeViewController.m */,
 				4AB1CE911C0BA0FD007700DB /* Assets.xcassets */,
 				4AB1CE931C0BA0FD007700DB /* LaunchScreen.storyboard */,
 				4AB1CE961C0BA0FD007700DB /* Info.plist */,
@@ -74,6 +71,9 @@
 		4AB1CE851C0BA0FD007700DB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4AB1CE881C0BA0FD007700DB /* AppDelegate.h */,
+				4AB1CE891C0BA0FD007700DB /* AppDelegate.m */,
+				4AB1CE8E1C0BA0FD007700DB /* Main.storyboard */,
 				4AB1CE861C0BA0FD007700DB /* main.m */,
 			);
 			name = "Supporting Files";
@@ -105,6 +105,7 @@
 		4AB1CE7A1C0BA0FD007700DB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JJ;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = heima;
 				TargetAttributes = {
@@ -149,9 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AB1CE8D1C0BA0FD007700DB /* ViewController.m in Sources */,
 				4AB1CE8A1C0BA0FD007700DB /* AppDelegate.m in Sources */,
 				4AB1CE871C0BA0FD007700DB /* main.m in Sources */,
+				4A1C91BC1C0BA21900EAB210 /* JJHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +299,7 @@
 				4AB1CE9B1C0BA0FD007700DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
